@@ -1,0 +1,2 @@
+This Arduino sketch uses the Arduino_GFX_Library to control an NV3041A display connected to an ESP32 via a QSPI interface. It initializes the display, sets a yellow background, and draws a centered 100x50 pixel green rectangle. The sketch uses a virtual canvas (480x272 pixels) as a framebuffer for efficient rendering, with the content sent to the physical display during setup. The backlight is controlled via GPIO pin 1. The loop is empty, as the drawing occurs once during initialization.
+
