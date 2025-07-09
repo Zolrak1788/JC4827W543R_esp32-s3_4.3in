@@ -8,12 +8,8 @@ This repository contains firmware for the JC4827W543 R, an ESP32-S3 board with a
 - [Overview](#overview)
 - [Hardware](#hardware)
 - [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 The JC4827W543 R project enables graphical interfaces and touch interactions on an ESP32-S3 board with a 480x272 resistive touchscreen. It leverages LVGL 8.4 for UI rendering, GFX for Arduino for display control, and XPT2046_Touchscreen for resistive touch input, supporting Wi-Fi/Bluetooth for IoT applications.
